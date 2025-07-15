@@ -1,39 +1,39 @@
 {
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "title": "Rune",
+  "name": "Rune Philip Bjødstrup",
+  "ascii": "",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "Rune-Philip",
+    "linkedin": "rune-philip-bjødstrup"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
-  "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
+  "email": "rune@bjoed.com",
+  "ps1_hostname": "Bjoed",
+  "ps1_username": "guest",
+  "repo": "https://github.com/Rune-Philip/LiveTerm",
   "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "paypal": "https://paypal.me/runephilip",
+    "patreon": "www.bjoed.com/404"
   },
   "colors": {
     "light": {
-      "background": "#FBF1C9",
-      "foreground": "#3C3836",
-      "yellow": "#D79921",
-      "green": "#98971A",
-      "gray": "#7C6F64",
-      "blue": "#458588",
-      "red": "#CA2124"
+      "background": "#F8FAFC",
+      "foreground": "#1F2937",
+      "yellow": "#FBBF24",
+      "green": "#34D399",
+      "gray": "#9CA3AF",
+      "blue": "#3B82F6",
+      "red": "#EF4444"
     },
     "dark": {
-      "background": "#2E3440",
-      "foreground": "#E5E9F0",
-      "yellow": "#5E81AC",
-      "green": "#A3BE8C",
-      "gray": "#88C0D0",
-      "blue": "#EBCB8B",
-      "red": "#BF616A"
+      "background": "#111827",
+      "foreground": "#E5E7EB",
+      "yellow": "#F59E0B",
+      "green": "#10B981",
+      "gray": "#6B7280",
+      "blue": "#2563EB",
+      "red": "#DC2626"
     }
   }
 }
