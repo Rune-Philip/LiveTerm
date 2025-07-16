@@ -14,7 +14,7 @@ export const help = async (args: string[]): Promise<string> => {
       c += Object.keys(bin).sort()[i - 1] + ' ';
     }
   }
-  return `Velkommen! Her er alle kommandoer:
+  return `Her er alle kommandoer:
 \n${c}\n
 [tab]: autoudfyld kommando.
 [ctrl+l]/clear: ryd terminalen.
@@ -127,12 +127,12 @@ export const nvim = async (args: string[]): Promise<string> => {
 };
 
 export const emacs = async (args?: string[]): Promise<string> => {
-  return `du ved hvad? bare brug vscode.`;
+  return `....? bare brug vscode.`;
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
-  return `Adgang nægtet: med lidt magt kommer... intet ansvar?`;
+  return `Adgang nægtet`;
 };
 
 // Banner
