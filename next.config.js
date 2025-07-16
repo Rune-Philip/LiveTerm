@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  images: {
+    unoptimized: true,
+  },
   basePath: '/LiveTerm',
   assetPrefix: '/LiveTerm/',
-  trailingSlash: true
 };
 
 module.exports = nextConfig;
