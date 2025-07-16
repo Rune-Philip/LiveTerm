@@ -44,10 +44,11 @@ export const resume = async (args: string[]): Promise<string> => {
 
 // Donate
 export const donate = async (args: string[]): Promise<string> => {
-  return `Tak for din interesse! 
+  return `Tak for din interesse!  
 Her er måder, du kan støtte mig på:
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
+- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>`;
 };
+
 
 // Contact
 export const email = async (args: string[]): Promise<string> => {
