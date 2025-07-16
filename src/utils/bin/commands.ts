@@ -38,8 +38,8 @@ Mere om mig:
 };
 
 export const resume = async (args: string[]): Promise<string> => {
-  window.open(`${config.resume_url}`);
-  return 'Åbner CV...';
+  window.open(`${config.resume_url}`, '_blank');
+  return 'Åbner CV i en ny fane...';
 };
 
 // Donate
@@ -47,7 +47,6 @@ export const donate = async (args: string[]): Promise<string> => {
   return `Tak for din interesse! 
 Her er måder, du kan støtte mig på:
 - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>`;
 };
 
 // Contact
@@ -143,8 +142,7 @@ export const banner = (args?: string[]): string => {
   / /_/ / / / / __ \/ _ \        / __  | / / __ \/ _ \/ __  / 
  / _, _/ /_/ / / / /  __/  _    / /_/ / / / /_/ /  __/ /_/ /  
 /_/ |_|\__,_/_/ /_/\___/  (_)  /_____/_/ /\____/\___/\__,_/   
-                                    /___/                                                                                                                                                  
-
+                                    /___/                     
 Skriv 'help' for at se en liste over tilgængelige kommandoer.
 Skriv 'sumfetch' for at vise en opsummering.
 Skriv 'repo' eller klik <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">her</a></u> for at åbne Github repository.
