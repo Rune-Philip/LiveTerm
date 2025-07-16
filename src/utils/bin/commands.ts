@@ -137,8 +137,9 @@ export const sudo = async (args?: string[]): Promise<string> => {
 
 // Banner
 export const banner = (args?: string[]): string => {
-  return `
-                                                                        
+  return `<pre class="whitespace-pre text-sm">
+
+                                                                       
       _____          ____         _____         ______        _____   
  ___|\     \        |    |   ____|\    \    ___|\     \   ___|\    \  
 |    |\     \       |    |  /     /\    \  |     \     \ |    |\    \ 
@@ -151,9 +152,9 @@ export const banner = (args?: string[]): string => {
 |____|_____|/ \|____|____|  \|____||____|/ |____|     | /|____|____|/ 
   \(    )/       \(   )/       \(    )/      \( |_____|/   \(    )/   
    '    '         '   '         '    '        '    )/       '    '    
-                                                   '                  
+                                                                     
 
-                                    
+
 Skriv 'help' for at se en liste over tilgængelige kommandoer.
 Skriv 'sumfetch' for at vise en opsummering.
 `;
