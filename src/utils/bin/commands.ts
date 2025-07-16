@@ -147,14 +147,6 @@ export const banner = (args?: string[]): string => {
 /_/ |_|\__,_/_/ /_/\___/  (_)  /_____/_/ /\____/\___/\__,_/   
                                     /___/                     
 
-  ____                         ____  _                _ 
- |  _ \ _   _ _ __   ___      | __ )(_) ___   ___  __| |
- | |_) | | | | '_ \ / _ \     |  _ \| |/ _ \ / _ \/ _` |
- |  _ <| |_| | | | |  __/  _  | |_) | | (_) |  __/ (_| |
- |_| \_\\__,_|_| |_|\___| (_) |____// |\___/ \___|\__,_|
-                                  |__/                  
-
-
                                     
 Skriv 'help' for at se en liste over tilgængelige kommandoer.
 Skriv 'sumfetch' for at vise en opsummering.
