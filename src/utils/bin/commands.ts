@@ -138,14 +138,25 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
+
+  
     ____                           ____    _                __
    / __ \__  ______  ___          / __ )  (_)___  ___  ____/ /
   / /_/ / / / / __ \/ _ \        / __  | / / __ \/ _ \/ __  / 
  / _, _/ /_/ / / / /  __/  _    / /_/ / / / /_/ /  __/ /_/ /  
 /_/ |_|\__,_/_/ /_/\___/  (_)  /_____/_/ /\____/\___/\__,_/   
                                     /___/                     
+
+  ____                         ____  _                _ 
+ |  _ \ _   _ _ __   ___      | __ )(_) ___   ___  __| |
+ | |_) | | | | '_ \ / _ \     |  _ \| |/ _ \ / _ \/ _` |
+ |  _ <| |_| | | | |  __/  _  | |_) | | (_) |  __/ (_| |
+ |_| \_\\__,_|_| |_|\___| (_) |____// |\___/ \___|\__,_|
+                                  |__/                  
+
+
+                                    
 Skriv 'help' for at se en liste over tilgængelige kommandoer.
 Skriv 'sumfetch' for at vise en opsummering.
-Skriv 'repo' eller klik <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">her</a></u> for at åbne Github repository.
 `;
 };
