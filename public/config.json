@@ -1,0 +1,39 @@
+{
+  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
+  "title": "Rune",
+  "name": "Rune Philip Bjødstrup",
+  "ascii": "",
+  "social": {
+    "github": "Rune-Philip",
+    "linkedin": "rune-philip-bjødstrup"
+  },
+  "email": "rune@bjoed.com",
+  "ps1_hostname": "Bjoed",
+  "ps1_username": "guest",
+  "repo": "https://github.com/Rune-Philip/LiveTerm",
+  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "donate_urls": {
+    "paypal": "https://paypal.me/runephilip",
+    "patreon": "www.bjoed.com/404"
+  },
+  "colors": {
+    "light": {
+      "background": "#F8FAFC",
+      "foreground": "#1F2937",
+      "yellow": "#FBBF24",
+      "green": "#34D399",
+      "gray": "#9CA3AF",
+      "blue": "#3B82F6",
+      "red": "#EF4444"
+    },
+    "dark": {
+      "background": "#111827",
+      "foreground": "#E5E7EB",
+      "yellow": "#F59E0B",
+      "green": "#10B981",
+      "gray": "#6B7280",
+      "blue": "#2563EB",
+      "red": "#DC2626"
+    }
+  }
+}
